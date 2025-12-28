@@ -29,7 +29,18 @@ export default function ProjectsSection() {
 			live: null,
 			tech: "Java, OOP, Console App",
 			description: "A console-based Java calculator demonstrating object-oriented programming, user input handling, and basic arithmetic operations."
+		},
+		{
+  			id: 4,
+  			title: "Medical Chatbot",
+  			image: "/medibot.png",
+  			github: "https://github.com/melissa-aoko/Medical-Chatbot",
+  			live: "https://www.youtube.com/watch?v=ydnj-iznw7c", // <-- link to your demo video
+  			tech: "Python, LangChain, AI, NLP",
+  			description: "A chatbot that answers medical questions using AI. Features conversation history and context-aware responses."
 		}
+
+
 	];
 
 	return (
